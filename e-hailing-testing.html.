@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-hailing QA Case Study | Matulwe Masemola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">MATULWE<span>.</span></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#overview">Overview</a>
+            <a href="#testing">Testing</a>
+            <a href="#defects">Defects</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="overview">
+    <p class="eyebrow">PROJECT 01 / REAL-WORLD EXPERIENCE</p>
+
+    <h1>E-hailing Super App<br>
+        <span>Quality Assurance.</span>
+    </h1>
+
+    <p class="hero-description">
+        A practical demonstration of mobile and web application
+        testing across driver and customer experiences.
+    </p>
+
+    <div class="hero-buttons">
+        <span class="tag">iOS</span>
+        <span class="tag">Android</span>
+        <span class="tag">Web</span>
+        <span class="tag">Manual QA</span>
+    </div>
+</section>
+
+<section class="section">
+    <p class="eyebrow">01 / PROJECT OVERVIEW</p>
+    <h2>Understanding the application.</h2>
+
+    <p>
+        This project involved quality assurance testing of an
+        e-hailing super application designed to connect drivers
+        and customers through ride-related services and
+        additional digital features.
+    </p>
+
+    <p>
+        Testing covered both driver-side and customer-side
+        experiences across iOS, Android and web platforms.
+        The focus was on validating functionality, exploring
+        application behaviour, identifying defects and
+        supporting software quality.
+    </p>
+</section>
+
+<section class="section" id="testing">
+    <p class="eyebrow">02 / TESTING APPROACH</p>
+    <h2>Testing methodologies.</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Functional Testing</h3>
+            <p>Validating application features against expected behaviour.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Regression Testing</h3>
+            <p>Checking existing functionality following application changes.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Exploratory Testing</h3>
+            <p>Investigating unexpected behaviour and uncovering defects.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Usability Testing</h3>
+            <p>Assessing navigation, interaction and user experience.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Smoke Testing</h3>
+            <p>Checking essential application functionality.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <p class="eyebrow">03 / TEST ENVIRONMENTS</p>
+    <h2>Cross-platform testing.</h2>
+
+    <div class="project-card">
+        <h3>iOS</h3>
+        <p>Manual application testing on Apple's mobile platform.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Android</h3>
+        <p>Manual application testing on Android devices.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Web</h3>
+        <p>Testing browser-based application functionality.</p>
+    </div>
+</section>
+
+<section class="section" id="defects">
+    <p class="eyebrow">04 / DEFECT INVESTIGATION</p>
+    <h2>Real-world defect example.</h2>
+
+    <div class="project-card">
+        <p class="project-type">BUG REPORT / BUG-001</p>
+
+        <h3>Live captions persist across application modules.</h3>
+
+        <p><strong>Modules:</strong> Social Media Hub and Chats</p>
+
+        <p><strong>Steps to reproduce:</strong></p>
+
+        <p>
+            1. Open the Social Media Hub.<br>
+            2. Start a live session.<br>
+            3. Enable captions.<br>
+            4. Navigate to the Chats module.<br>
+            5. Initiate a video call.<br>
+            6. Observe the caption behaviour.
+        </p>
+
+        <p><strong>Expected result:</strong></p>
+        <p>
+            Captions should not unintentionally persist
+            from the live session into a separate video call.
+        </p>
+
+        <p><strong>Actual result:</strong></p>
+        <p>
+            Captions continued displaying during the video call.
+        </p>
+
+        <p><strong>Testing focus:</strong></p>
+        <p>Exploratory testing and cross-module functionality.</p>
+    </div>
+</section>
+
+<section class="section">
+    <p class="eyebrow">05 / DEFECT MANAGEMENT</p>
+    <h2>Documentation and tracking.</h2>
+
+    <p>
+        ClickUp was used to record and track identified
+        application defects. Screenshots were captured and
+        attached to reports to provide supporting visual
+        evidence of unexpected behaviour.
+    </p>
+
+    <div class="project-card">
+        <h3>Defect reporting process</h3>
+        <p>
+            Issue identification → Reproduction →
+            Screenshot evidence → ClickUp reporting →
+            Tracking and follow-up.
+        </p>
+        <span class="tag">ClickUp</span>
+        <span class="tag">Screenshot Evidence</span>
+        <span class="tag">Manual QA</span>
+    </div>
+</section>
+
+<section class="section">
+    <p class="eyebrow">06 / PROFESSIONAL TAKEAWAYS</p>
+    <h2>What this project demonstrates.</h2>
+
+    <p>
+        This experience demonstrates practical knowledge of
+        cross-platform application testing, defect investigation,
+        manual test execution and structured issue reporting.
+    </p>
+
+    <p>
+        It also highlights the importance of testing interactions
+        between application modules rather than evaluating
+        individual features in isolation.
+    </p>
+</section>
+
+<section class="section">
+    <a href="index.html" class="button primary">
+        Back to portfolio
+    </a>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Matulwe Masemola. QA & AI Testing Portfolio.</p>
+</footer>
+
+</body>
+</html>
